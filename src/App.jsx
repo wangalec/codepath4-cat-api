@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import CatCard from './components/CatCard'
 
-const API_KEY = import.meta.env.API_KEY
-
 function App() {
 
   const[image, setImage] = useState("https://cdn2.thecatapi.com/images/2ga.png");
